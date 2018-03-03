@@ -11,7 +11,8 @@ body{
     margin: 0 auto;   
 }
 .details{
-
+    width: 28%;
+    margin: 2%;
     float: left;
     font-family: 'Kaushan Script', cursive;
     
@@ -34,10 +35,9 @@ body{
     color: #4a0e04;
 }
 .Img{
-  /* border: tomato; */
-  width:400px;
-  height: 527px;
-  margin-top: 30px;
-  box-shadow: -13px 0px 9px 5px #350f0f;
+    width: 330px;
+    height: 485px;
+    margin-top: 30px;
+    box-shadow: -13px 0px 9px 5px #350f0f;
 
 }

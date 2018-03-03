@@ -1,3 +1,4 @@
+
 let MyBooksList = {
                      The_first_mind_adventure: { title: "The first mind adventure", language: "Arabic", author: "Firas Al Sawwah" } ,
                          The_other_side_of_Christ: { title: "The other side of Christ", language: "Arabic", author: "Firas Al Sawwah" },
@@ -28,7 +29,7 @@ function generateOne() {
 
     for (var i in MyBooksList) {
         let book = MyBooksList[i]
-        var body = document.getElementById("main")
+        document.getElementById("main")
         let booksDetails = document.createElement("ul")
         main.appendChild(booksDetails)
         booksDetails.className= "details"
